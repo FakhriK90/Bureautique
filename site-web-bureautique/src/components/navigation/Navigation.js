@@ -18,7 +18,10 @@ function Navigation() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            LOGO
+            <div className='title-logo'>
+            <span>Entreprise Jadla Boujemaaa</span>
+            <span>للتجهيز الاداري و المكتبي</span>
+            </div>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

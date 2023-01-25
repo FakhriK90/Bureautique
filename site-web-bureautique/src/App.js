@@ -1,6 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './components/footer/Footer';
 import HomePage from './components/homePage/HomePage';
 import Navigation from './components/navigation/Navigation';
 import SignIn from './components/signIn/SignIn';
@@ -15,6 +16,7 @@ function App() {
     <Route exact path='/signin' element={<SignIn/>}/>
     <Route exact path='/signup' element={<SignUp/>}/>
     </Routes>
+    <Footer/>
     </div>
   );
 }
