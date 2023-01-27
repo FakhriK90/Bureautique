@@ -49,7 +49,7 @@ const Footer = () => {
               <i class="fab fa-typo3" />
             </Link>
           </div>
-          <small class="website-rights">{`Copyright © Upbeat Code ${year}`}</small>
+          <small class="website-rights">{`© Entreprise Jadla Boujemaaa للتجهيز الاداري و المكتبي ${year}`}</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"

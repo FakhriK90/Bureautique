@@ -9,6 +9,7 @@ import ArchiveIcon from "@mui/icons-material/Archive";
 import FileCopyIcon from "@mui/icons-material/FileCopy";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import './category.css'
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -26,7 +27,7 @@ const StyledMenu = styled((props) => (
 ))(({ theme }) => ({
   "& .MuiPaper-root": {
     borderRadius: 8,
-    marginTop: theme.spacing(1),
+    marginTop: theme.spacing(2),
     minWidth: 180,
     color:
       theme.palette.mode === "light"
@@ -70,12 +71,12 @@ export default function Category() {
         aria-controls={open ? "demo-customized-menu" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
-        variant="contained"
+        variant="black"
         disableElevation
         onClick={handleClick}
         endIcon={<KeyboardArrowDownIcon />}
       >
-        Options
+        Catégories
       </Button>
       <StyledMenu
         id="demo-customized-menu"
@@ -88,16 +89,25 @@ export default function Category() {
       >
         <MenuItem onClick={handleClose} disableRipple>
           <EditIcon />
-          Edit
+          Fournitures Scolaires
+          <ul>
+          <li>jhuih</li>
+          </ul>
         </MenuItem>
         <MenuItem onClick={handleClose} disableRipple>
           <FileCopyIcon />
-          Duplicate
+          Équipements bureautiques
+          <ul>
+          <li>jhuih</li>
+          </ul>
         </MenuItem>
         <Divider sx={{ my: 0.5 }} />
         <MenuItem onClick={handleClose} disableRipple>
           <ArchiveIcon />
-          Archive
+          Électroniques
+          <ul>
+          <li>jhuih</li>
+          </ul>
         </MenuItem>
         <MenuItem onClick={handleClose} disableRipple>
           <MoreHorizIcon />
