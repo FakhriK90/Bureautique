@@ -4,96 +4,111 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   const year = new Date().getFullYear();
+  var pic1 = require("../../Images/Rectorat Gafsa/ENIGA.png");
+  var pic2 = require("../../Images/Rectorat Gafsa/fsgf.png");
+  var pic3 = require("../../Images/Rectorat Gafsa/IPEIG.png");
+  var pic4 = require("../../Images/Rectorat Gafsa/ISAE.png");
+  var pic5 = require("../../Images/Rectorat Gafsa/ISAM-G.png");
+  var pic6 = require("../../Images/Rectorat Gafsa/ISEAH.png");
+  var pic7 = require("../../Images/Rectorat Gafsa/Iset.png");
+  var pic8 = require("../../Images/Rectorat Gafsa/ISSAT.png");
+  var pic9 = require("../../Images/Rectorat Gafsa/ISSEP.png");
   return (
     <div className="footer-container">
-      <div class="footer-links">
-        <div className="footer-link-wrapper">
-          <div class="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
-          </div>
-          <div class="footer-link-items">
-            <h2>Contact Us</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
-          </div>
-        </div>
-        <div className="footer-link-wrapper">
-          <div class="footer-link-items">
-            <h2>Videos</h2>
-            <Link to="/">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
-          </div>
-          <div class="footer-link-items">
-            <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
-          </div>
-        </div>
-      </div>
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
+      
+      
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <div className="footer-logo">
             <Link to="/" className="social-logo">
               TRVL
               <i class="fab fa-typo3" />
             </Link>
+            <Link to="/" className="social-logo">
+              TRVL
+              <i class="fab fa-typo3" />
+            </Link>
+            <Link to="/" className="social-logo">
+              TRVL
+              <i className="fab fa-typo3" />
+            </Link>
           </div>
-          <small class="website-rights">{`© Entreprise Jadla Boujemaaa للتجهيز الاداري و المكتبي ${year}`}</small>
-          <div class="social-icons">
+          <div className="social-icons">
             <Link
-              class="social-icon-link facebook"
+            className="social-icon-link facebook"
               to="/"
               target="_blank"
               aria-label="Facebook"
             >
-              <i class="fab fa-facebook-f" />
+              <i className="fab fa-facebook-f" />
             </Link>
             <Link
-              class="social-icon-link instagram"
+            className="social-icon-link instagram"
               to="/"
               target="_blank"
               aria-label="Instagram"
             >
-              <i class="fab fa-instagram" />
+              <i className="fab fa-instagram" />
             </Link>
             <Link
-              class="social-icon-link youtube"
+            className="social-icon-link youtube"
               to="/"
               target="_blank"
               aria-label="Youtube"
             >
-              <i class="fab fa-youtube" />
+              <i className="fab fa-youtube" />
             </Link>
             <Link
-              class="social-icon-link twitter"
+            className="social-icon-link twitter"
               to="/"
               target="_blank"
               aria-label="Twitter"
             >
-              <i class="fab fa-twitter" />
+              <i className="fab fa-twitter" />
             </Link>
             <Link
-              class="social-icon-link twitter"
+            className="social-icon-link twitter"
               to="/"
               target="_blank"
               aria-label="LinkedIn"
             >
-              <i class="fab fa-linkedin" />
+              <i className="fab fa-linkedin" />
             </Link>
-          </div>
+          </div>     
+               <small className="website-rights">{`© Entreprise Jadla Boujemaaa للتجهيز الاداري و المكتبي ${year}`}</small>
         </div>
       </section>
+      <h1>État régional de Gafsa</h1>
+      <div className="Etat-reg">
+        <div className="rect">
+          <h2>Rectorat</h2>
+          <div className="etat_logo">
+            <img src={pic1} alt="" />
+            <img src={pic2} alt="" />
+            <img src={pic3} alt="" />
+            <img src={pic4} alt="" />
+            <img src={pic5} alt="" />
+            <img src={pic6} alt="" />
+            <img src={pic7} alt="" />
+            <img src={pic8} alt="" />
+            <img src={pic9} alt="" />
+          </div>
+        </div>
+        <div className="rect">
+          <h2>Rectorat</h2>
+          <div className="etat_logo">
+            <img src={pic1} alt="" />
+            <img src={pic2} alt="" />
+          </div>
+        </div>
+        <div className="rect">
+          <h2>Rectorat</h2>
+          <div className="etat_logo">
+            <img src={pic1} alt="" />
+            <img src={pic2} alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

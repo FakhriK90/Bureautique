@@ -17,8 +17,9 @@ function Navigation() {
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
           <div className="title-logo">
             <span>Entreprise Jadla Boujemaaa</span>
-          </div>
+            
           <span>للتجهيز الاداري و المكتبي</span>
+          </div>
         </Link>
         <div className="navbar-container">
           <div className="menu-icon" onClick={handleClick}>

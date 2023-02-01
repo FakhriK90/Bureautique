@@ -65,55 +65,31 @@ export default function Category() {
   };
 
   return (
-    <div>
-      <Button
-        id="demo-customized-button"
-        aria-controls={open ? "demo-customized-menu" : undefined}
-        aria-haspopup="true"
-        aria-expanded={open ? "true" : undefined}
-        variant="black"
-        disableElevation
-        onClick={handleClick}
-        endIcon={<KeyboardArrowDownIcon />}
-      >
-        Catégories
-      </Button>
-      <StyledMenu
-        id="demo-customized-menu"
-        MenuListProps={{
-          "aria-labelledby": "demo-customized-button",
-        }}
-        anchorEl={anchorEl}
-        open={open}
-        onClose={handleClose}
-      >
-        <MenuItem onClick={handleClose} disableRipple>
-          <EditIcon />
-          Fournitures Scolaires
-          <ul>
-          <li>jhuih</li>
-          </ul>
-        </MenuItem>
-        <MenuItem onClick={handleClose} disableRipple>
-          <FileCopyIcon />
-          Équipements bureautiques
-          <ul>
-          <li>jhuih</li>
-          </ul>
-        </MenuItem>
-        <Divider sx={{ my: 0.5 }} />
-        <MenuItem onClick={handleClose} disableRipple>
-          <ArchiveIcon />
-          Électroniques
-          <ul>
-          <li>jhuih</li>
-          </ul>
-        </MenuItem>
-        <MenuItem onClick={handleClose} disableRipple>
-          <MoreHorizIcon />
-          More
-        </MenuItem>
-      </StyledMenu>
-    </div>
+    <div id="contain">
+        <ul>
+          <li className="category"><a href="#">Web Design</a>
+            {/* First Tier Drop Down */}
+            <ul>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Links</a></li>
+              <li><a href="#">Tutorials</a>
+                {/* Second Tier Drop Down */}
+                <ul>
+                  <li><a href="#">HTML/CSS</a></li>
+                  <li><a href="#">jQuery</a></li>
+                  <li><a href="#">Other</a>
+                    {/* Third Tier Drop Down */}
+                    <ul>
+                      <li><a href="#">Stuff</a></li>
+                      <li><a href="#">Things</a></li>
+                      <li><a href="#">Other Stuff</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
   );
 }

@@ -31,6 +31,7 @@
   .title-logo{
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   
   .nav-menu {
@@ -57,10 +58,6 @@
     height: 100%;
   }
   
-  .nav-links:hover {
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
-  }
   
   .fa-bars {
     color: #fff;
@@ -162,11 +159,11 @@
 
 
 .search {
-  width: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
   margin-left: 50%;
-  margin-top: 5px;
+  margin-top: 5%;
 }
 
 .searchTerm {
