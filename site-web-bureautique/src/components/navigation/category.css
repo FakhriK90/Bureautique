@@ -1,4 +1,4 @@
-.MuiPaper-root{
+/* .MuiPaper-root{
     display: flex;
     width: 100%;
 }
@@ -12,7 +12,7 @@
 .MuiMenuItem-gutters{
     display: flex;
     flex-direction: column;
-}
+} */
 
 /* CSS Document */
 
@@ -20,9 +20,8 @@
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
 .category{
-  width:110%;
+  width:154%;
 }
-
 
 
 #contain ul {
@@ -38,30 +37,30 @@
 #contain a {
 	display:block;
 	color:rgb(0, 0, 0);
-	font-size:20px;
-	line-height: 60px;
+	font-size:16px;
+	line-height: 40px;
 	text-decoration:none;
 }
 
 #contain a:hover { 
-	background-color: #ffffff; 
+	background-color: #ffffff;
 }
 
 /* Hide Dropdowns by Default */
 #contain ul ul {
 	display: none;
 	position: absolute; 
-	top: 60px; /* the height of the main nav */
+	top: 40px; /* the height of the main nav */
 }
 	
 /* Display Dropdowns on Hover */
 #contain ul li:hover > ul {
-	display:inherit;
+	display:block;
 }
 	
 /* Fisrt Tier Dropdown */
 #contain ul ul li {
-	width:170px;
+	width:156%;
 	float:none;
 	display:list-item;
 	position: relative;
@@ -70,8 +69,8 @@
 /* Second, Third and more Tiers	*/
 #contain ul ul ul li {
 	position: relative;
-	top:-60px; 
-	right:170px;
+	top:-40px; 
+	right:140px;
 }
 
 	

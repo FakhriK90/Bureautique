@@ -15,69 +15,45 @@ const Footer = () => {
   var pic9 = require("../../Images/Rectorat Gafsa/ISSEP.png");
   return (
     <div className="footer-container">
-      
-      
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              TRVL
-              <i class="fab fa-typo3" />
+              Acceuil
             </Link>
+            <div class="vl"></div>
             <Link to="/" className="social-logo">
-              TRVL
-              <i class="fab fa-typo3" />
+              Présentation
             </Link>
+            <div class="vl"></div>
             <Link to="/" className="social-logo">
-              TRVL
-              <i className="fab fa-typo3" />
+              Contactez-nous
             </Link>
           </div>
           <div className="social-icons">
             <Link
-            className="social-icon-link facebook"
+              className="social-icon-link phone"
               to="/"
               target="_blank"
-              aria-label="Facebook"
+              aria-label="Phone"
             >
-              <i className="fab fa-facebook-f" />
+            <i className="fa-solid fa-phone"></i>
+            <span>+216 ** *** ***</span>
             </Link>
             <Link
-            className="social-icon-link instagram"
+              className="social-icon-link mail"
               to="/"
               target="_blank"
-              aria-label="Instagram"
+              aria-label="E-mail"
             >
-              <i className="fab fa-instagram" />
+            <i className="fa-solid fa-envelope"></i>
+              <span>jadlaboujemaa@gmail.com</span>
             </Link>
-            <Link
-            className="social-icon-link youtube"
-              to="/"
-              target="_blank"
-              aria-label="Youtube"
-            >
-              <i className="fab fa-youtube" />
-            </Link>
-            <Link
-            className="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i className="fab fa-twitter" />
-            </Link>
-            <Link
-            className="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i className="fab fa-linkedin" />
-            </Link>
-          </div>     
-               <small className="website-rights">{`© Entreprise Jadla Boujemaaa للتجهيز الاداري و المكتبي ${year}`}</small>
+          </div>
+          <small className="website-rights">{`© Entreprise Jadla Boujemaaa للتجهيز الاداري و المكتبي ${year}`}</small>
         </div>
       </section>
+      <div className="footer_logo">
       <h1>État régional de Gafsa</h1>
       <div className="Etat-reg">
         <div className="rect">
@@ -108,6 +84,7 @@ const Footer = () => {
             <img src={pic2} alt="" />
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
