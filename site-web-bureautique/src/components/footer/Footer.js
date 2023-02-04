@@ -1,6 +1,8 @@
 import React from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
+import Tooltip from '@mui/material/Tooltip';
+
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -58,15 +60,33 @@ const Footer = () => {
       <div className="Etat-reg">
         <div className="rect">
           <div className="etat_logo">
-            <img src={pic1} alt="" title="École Nationale des Ingénieurs de Gafsa" />
-            <img src={pic2} alt="" title="Faculté des Sciences de Gafsa" />
-            <img src={pic3} alt="" title="Institut Préparatoire aux Etudes d'Ingénieur de Gafsa" />
-            <img src={pic4} alt="" title="Institut Supérieur d'Administration des Entreprises de Gafsa" />
-            <img src={pic5} alt="" title="Institut Supérieur d'arts et métiers de Gafsa" />
-            <img src={pic6} alt="" title="Institut Supérieur des Etudes Appliquées en Humanités de Gafsa" />
-            <img src={pic7} alt="" title="Institut Supérieur des Études Technologiques de Gafsa" />
-            <img src={pic8} alt="" title="Institut Supérieur des Sciences Appliquées et de Technologies de Gafsa" />
-            <img src={pic9} alt="" title="Institut Supérieur du Sport et de l'Education Physique de Gafsa" />
+          <Tooltip title="École Nationale des Ingénieurs de Gafsa" arrow>
+          <img src={pic1} alt="" />
+    </Tooltip>
+    <Tooltip title="Faculté des Sciences de Gafsa" arrow>
+          <img src={pic2} alt="" />
+    </Tooltip>
+    <Tooltip title="Institut Préparatoire aux Etudes d'Ingénieur de Gafsa" arrow>
+          <img src={pic3} alt="" />
+    </Tooltip>
+    <Tooltip title="Institut Supérieur d'Administration des Entreprises de Gafsa" arrow>
+          <img src={pic4} alt="" />
+    </Tooltip>
+    <Tooltip title="Institut Supérieur d'arts et métiers de Gafsa" arrow>
+          <img src={pic5} alt="" />
+    </Tooltip>
+    <Tooltip title="Institut Supérieur des Etudes Appliquées en Humanités de Gafsa" arrow>
+          <img src={pic6} alt="" />
+    </Tooltip>
+    <Tooltip title="Institut Supérieur des Études Technologiques de Gafsa" arrow>
+          <img src={pic7} alt="" />
+    </Tooltip>
+    <Tooltip title="Institut Supérieur des Sciences Appliquées et de Technologies de Gafsa" arrow>
+          <img src={pic8} alt="" />
+    </Tooltip>
+    <Tooltip title="Institut Supérieur du Sport et de l'Education Physique de Gafsa" arrow>
+          <img src={pic9} alt="" />
+    </Tooltip>
           </div>
         </div>
       </div>
