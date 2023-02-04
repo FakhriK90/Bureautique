@@ -53,20 +53,20 @@ const Footer = () => {
           <small className="website-rights">{`© Entreprise Jadla Boujemaaa للتجهيز الاداري و المكتبي ${year}`}</small>
         </div>
       </section>
-      <div className="footer_logo">
+      <div className="logos">
       <h1>État régional de Gafsa</h1>
       <div className="Etat-reg">
         <div className="rect">
           <div className="etat_logo">
-            <img src={pic1} alt="" />
-            <img src={pic2} alt="" />
-            <img src={pic3} alt="" />
-            <img src={pic4} alt="" />
-            <img src={pic5} alt="" />
-            <img src={pic6} alt="" />
-            <img src={pic7} alt="" />
-            <img src={pic8} alt="" />
-            <img src={pic9} alt="" />
+            <img src={pic1} alt="" title="École Nationale des Ingénieurs de Gafsa" />
+            <img src={pic2} alt="" title="Faculté des Sciences de Gafsa" />
+            <img src={pic3} alt="" title="Institut Préparatoire aux Etudes d'Ingénieur de Gafsa" />
+            <img src={pic4} alt="" title="Institut Supérieur d'Administration des Entreprises de Gafsa" />
+            <img src={pic5} alt="" title="Institut Supérieur d'arts et métiers de Gafsa" />
+            <img src={pic6} alt="" title="Institut Supérieur des Etudes Appliquées en Humanités de Gafsa" />
+            <img src={pic7} alt="" title="Institut Supérieur des Études Technologiques de Gafsa" />
+            <img src={pic8} alt="" title="Institut Supérieur des Sciences Appliquées et de Technologies de Gafsa" />
+            <img src={pic9} alt="" title="Institut Supérieur du Sport et de l'Education Physique de Gafsa" />
           </div>
         </div>
       </div>
