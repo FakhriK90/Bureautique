@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./category.css";
-
+import { Link } from "react-router-dom";
 
 
 export default function Category() {
@@ -10,47 +10,47 @@ export default function Category() {
     <div id="contain">
       <ul>
         <li className="category">
-          <a href="#">Catégories</a>
+          <h3 id="title">Catégories</h3>
           <ul>
             <li>
-              <a href="#">Resources</a>
+              <Link to="">Resources</Link>
               <ul>
                 <li>
-                  <a href="#">HTML/CSS</a>
+                  <Link to="">HTML/CSS</Link>
                 </li>
                 <li>
-                  <a href="#">jQuery</a>
+                  <Link to="">jQuery</Link>
                 </li>
                 <li>
-                  <a href="#">Other</a>
+                  <Link to="">Other</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="#">Links</a>
+              <Link to="">Links</Link>
               <ul>
                 <li>
-                  <a href="#">HTML/CSS</a>
+                  <Link to="">HTML/CSS</Link>
                 </li>
                 <li>
-                  <a href="#">jQuery</a>
+                  <Link to="">jQuery</Link>
                 </li>
                 <li>
-                  <a href="#">Other</a>
+                  <Link to="">Other</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="#">Tutorials</a>
+              <Link to="">Tutorials</Link>
               <ul>
                 <li>
-                  <a href="#">HTML/CSS</a>
+                  <Link to="">HTML/CSS</Link>
                 </li>
                 <li>
-                  <a href="#">jQuery</a>
+                  <Link to="">jQuery</Link>
                 </li>
                 <li>
-                  <a href="#">Other</a>
+                  <Link to="">Other</Link>
                 </li>
               </ul>
             </li>
