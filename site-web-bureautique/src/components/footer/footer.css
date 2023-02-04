@@ -12,7 +12,7 @@
   .Etat-reg{
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: wheat;
+    background-color: rgba(255, 248, 234, 0.825);
   }
 
   .rec{
@@ -29,7 +29,7 @@
   }
 
   .etat_logo img{
-    width: 10%;
+    width: 4%;
   }
  
  

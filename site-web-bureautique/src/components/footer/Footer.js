@@ -57,7 +57,6 @@ const Footer = () => {
       <h1>État régional de Gafsa</h1>
       <div className="Etat-reg">
         <div className="rect">
-          <h2>Rectorat</h2>
           <div className="etat_logo">
             <img src={pic1} alt="" />
             <img src={pic2} alt="" />
@@ -68,20 +67,6 @@ const Footer = () => {
             <img src={pic7} alt="" />
             <img src={pic8} alt="" />
             <img src={pic9} alt="" />
-          </div>
-        </div>
-        <div className="rect">
-          <h2>Rectorat</h2>
-          <div className="etat_logo">
-            <img src={pic1} alt="" />
-            <img src={pic2} alt="" />
-          </div>
-        </div>
-        <div className="rect">
-          <h2>Rectorat</h2>
-          <div className="etat_logo">
-            <img src={pic1} alt="" />
-            <img src={pic2} alt="" />
           </div>
         </div>
       </div>
