@@ -44,7 +44,7 @@ function Navigation() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                S'inscrire
+                Se connecter
               </Link>
             </li>
             <li className="nav-item">
