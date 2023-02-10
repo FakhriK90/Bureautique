@@ -10,7 +10,7 @@ export default function Category() {
     <div id="contain">
       <ul>
         <li className="category">
-          <h3 id="title">Catégories</h3>
+          <h3 id="title">Nos produits</h3>
           <ul>
             <li>
               <Link to="">Resources</Link>
