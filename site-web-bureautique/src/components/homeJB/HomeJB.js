@@ -82,7 +82,7 @@ const HomeJB = () => {
                 <div className="data">
                   <div className="content">
                     <h1 className="title">
-                      <a href="#">Équipements bureatiques</a>
+                      <a href="#">Bureatiques</a>
                     </h1>
                     <p className="text">
                       The antsy bingers of Netflix will eagerly anticipate the
@@ -109,7 +109,7 @@ const HomeJB = () => {
                 <div className="data">
                   <div className="content">
                     <h1 className="title">
-                      <a href="#">Équipement informatiques</a>
+                      <a href="#">Informatiques</a>
                     </h1>
                     <p className="text">
                       The antsy bingers of Netflix will eagerly anticipate the
