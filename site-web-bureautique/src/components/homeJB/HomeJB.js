@@ -2,6 +2,7 @@ import React from "react";
 import "./homeJB.css";
 
 const HomeJB = () => {
+  var logo = require("../../Images/Logo/Entreprise jadla boujemaa.png")
   return (
     <div>
       <div className="contenu_carou_auto">
@@ -52,12 +53,12 @@ const HomeJB = () => {
                 accompagnement personnalisé et de solutions adaptées à vos
                 établissement: biens d'équipements bureautiques, achats
                 volumiques, équipement informatique ou bien fournitures pour vos
-                bureaux ..
+                bureaux ...
               </p>
               <div className="main__image">
                 <img
-                  src="https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80"
-                  alt="face"
+                  src={logo}
+                  alt="logo"
                   className="main__img"
                 />
               </div>
@@ -66,64 +67,91 @@ const HomeJB = () => {
         </div>
       </div>
       <div className="prod_card_section">
-      <h2>Quels sont nos prodauits?</h2>
-      <div className="nos_produits">
-      <div className="row">
-      <div className="example-2 card">
-        <div className="wrapper">
-          <div className="header">
-            <ul className="menu-content">
-              <li><a href="#" className="fa fa-heart-o"></a></li>
-            </ul>
+        <h2>Quels sont nos prodauits?</h2>
+        <div className="nos_produits">
+          <div className="row">
+            <div className="example-2 card">
+              <div className="wrapper">
+                <div className="header">
+                  <ul className="menu-content">
+                    <li>
+                      <a href="#" className="fa fa-heart-o"></a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="data">
+                  <div className="content">
+                    <h1 className="title">
+                      <a href="#">Équipements bureatiques</a>
+                    </h1>
+                    <p className="text">
+                      The antsy bingers of Netflix will eagerly anticipate the
+                      digital release of the Survive soundtrack, out today.
+                    </p>
+                    <a href="#" className="button">
+                      Lisez plus
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="data">
-            <div className="content">
-              <h1 className="title"><a href="#">Équipements bureatiques</a></h1>
-              <p className="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
-              <a href="#" className="button">Lisez plus</a>
+          <div className="row">
+            <div className="example-2 card">
+              <div className="wrapper">
+                <div className="header">
+                  <ul className="menu-content">
+                    <li>
+                      <a href="#" className="fa fa-heart-o"></a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="data">
+                  <div className="content">
+                    <h1 className="title">
+                      <a href="#">Équipement informatiques</a>
+                    </h1>
+                    <p className="text">
+                      The antsy bingers of Netflix will eagerly anticipate the
+                      digital release of the Survive soundtrack, out today.
+                    </p>
+                    <a href="#" className="button">
+                      Lisez plus
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="example-2 card">
+              <div className="wrapper">
+                <div className="header">
+                  <ul className="menu-content">
+                    <li>
+                      <a href="#" className="fa fa-heart-o"></a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="data">
+                  <div className="content">
+                    <h1 className="title">
+                      <a href="#">Fournitures</a>
+                    </h1>
+                    <p className="text">
+                      The antsy bingers of Netflix will eagerly anticipate the
+                      digital release of the Survive soundtrack, out today.
+                    </p>
+                    <a href="#" className="button">
+                      Lisez plus
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div className="row">
-      <div className="example-2 card">
-        <div className="wrapper">
-          <div className="header">
-            <ul className="menu-content">
-              <li><a href="#" className="fa fa-heart-o"></a></li>
-            </ul>
-          </div>
-          <div className="data">
-            <div className="content">
-              <h1 className="title"><a href="#">Équipement informatiques</a></h1>
-              <p className="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
-              <a href="#" className="button">Lisez plus</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="row">
-      <div className="example-2 card">
-        <div className="wrapper">
-          <div className="header">
-            <ul className="menu-content">
-              <li><a href="#" className="fa fa-heart-o"></a></li>
-            </ul>
-          </div>
-          <div className="data">
-            <div className="content">
-              <h1 className="title"><a href="#">Fournitures</a></h1>
-              <p className="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
-              <a href="#" className="button">Lisez plus</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
     </div>
   );
 };

@@ -4,7 +4,6 @@ import "./navigation.css";
 import SearchIcon from "@mui/icons-material/Search";
 import Category from "./Category";
 
-
 function Navigation() {
   const [click, setClick] = useState(false);
 
@@ -17,8 +16,7 @@ function Navigation() {
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
           <div className="title-logo">
             <span>Entreprise Jadla Boujemaaa</span>
-            
-          <span>للتجهيز الاداري و المكتبي</span>
+            <span>للتجهيز الاداري و المكتبي</span>
           </div>
         </Link>
         <div className="navbar-container">
