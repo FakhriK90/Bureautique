@@ -232,7 +232,7 @@ a {
   transition: transform 0.3s;
 }
 .card .data .content {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.578);
   padding: 1em;
   position: relative;
   z-index: 1;
@@ -253,8 +253,15 @@ a {
 .card input[type="checkbox"]:checked + .menu-content {
   transform: translateY(-60px);
 }
-.example-2 .wrapper {
-  background: url("https://tvseriescritic.files.wordpress.com/2016/10/stranger-things-bicycle-lights-children.jpg")
+.example-2 .bureautique {
+  background: url("../../Images/Produits/équipements bureautiques/Tables/TABLE\ DE\ REUNION\ PRESTIGE.jpg")
+    center / cover no-repeat;
+}
+.example-2 .informatique {
+  background: url("../../Images/Produits/équipements informatiques/Ordinateurs de bureau/PC\ DE\ BUREAU\ DELL.jpg")
+    center / cover no-repeat;
+}.example-2 .scolaire {
+  background: url("../../Images/Produits/Fournitures/Stylos/Stadler/ST34SB44_staedtler_34_triplus_mobile_office_set.jpg")
     center / cover no-repeat;
 }
 .example-2 .wrapper:hover .menu-content span {

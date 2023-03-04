@@ -71,7 +71,7 @@ const HomeJB = () => {
         <div className="nos_produits">
           <div className="row">
             <div className="example-2 card">
-              <div className="wrapper">
+              <div className="wrapper bureautique">
                 <div className="header">
                   <ul className="menu-content">
                     <li>
@@ -82,14 +82,14 @@ const HomeJB = () => {
                 <div className="data">
                   <div className="content">
                     <h1 className="title">
-                      <a href="#">Bureatiques</a>
+                      <a href="#">Bureautiques</a>
                     </h1>
                     <p className="text">
                       The antsy bingers of Netflix will eagerly anticipate the
                       digital release of the Survive soundtrack, out today.
                     </p>
                     <a href="#" className="button">
-                      Lisez plus
+                      Découvrir
                     </a>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ const HomeJB = () => {
           </div>
           <div className="row">
             <div className="example-2 card">
-              <div className="wrapper">
+              <div className="wrapper informatique">
                 <div className="header">
                   <ul className="menu-content">
                     <li>
@@ -116,7 +116,7 @@ const HomeJB = () => {
                       digital release of the Survive soundtrack, out today.
                     </p>
                     <a href="#" className="button">
-                      Lisez plus
+                      Découvrir
                     </a>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ const HomeJB = () => {
           </div>
           <div className="row">
             <div className="example-2 card">
-              <div className="wrapper">
+              <div className="wrapper scolaire">
                 <div className="header">
                   <ul className="menu-content">
                     <li>
@@ -143,7 +143,7 @@ const HomeJB = () => {
                       digital release of the Survive soundtrack, out today.
                     </p>
                     <a href="#" className="button">
-                      Lisez plus
+                      Découvrir
                     </a>
                   </div>
                 </div>

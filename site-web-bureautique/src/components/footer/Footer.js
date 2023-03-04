@@ -6,15 +6,20 @@ import Fade from "@mui/material/Fade";
 
 const Footer = () => {
   const year = new Date().getFullYear();
-  var pic1 = require("../../Images/Rectorat Gafsa/ENIGA.png");
-  var pic2 = require("../../Images/Rectorat Gafsa/fsgf.png");
-  var pic3 = require("../../Images/Rectorat Gafsa/IPEIG.png");
-  var pic4 = require("../../Images/Rectorat Gafsa/ISAE.png");
-  var pic5 = require("../../Images/Rectorat Gafsa/ISAM-G.png");
-  var pic6 = require("../../Images/Rectorat Gafsa/ISEAH.png");
-  var pic7 = require("../../Images/Rectorat Gafsa/Iset.png");
-  var pic8 = require("../../Images/Rectorat Gafsa/ISSAT.png");
-  var pic9 = require("../../Images/Rectorat Gafsa/ISSEP.png");
+  var pic1 = require("../../Images/Logo footer/ENIGA.png");
+  var pic2 = require("../../Images/Logo footer/fsgf.png");
+  var pic3 = require("../../Images/Logo footer/IPEIG.png");
+  var pic4 = require("../../Images/Logo footer/ISAE.png");
+  var pic5 = require("../../Images/Logo footer/ISAM-G.png");
+  var pic6 = require("../../Images/Logo footer/ISEAH.png");
+  var pic7 = require("../../Images/Logo footer/Iset.png");
+  var pic8 = require("../../Images/Logo footer/ISSAT.png");
+  var pic9 = require("../../Images/Logo footer/ISSEP.png");
+  var pic10 = require("../../Images/Logo footer/Hôpital régional de Gafsa.jpg");
+  var pic11 = require("../../Images/Logo footer/دار المعارف.png");
+  var pic12 = require("../../Images/Logo footer/Groupement santé de base Gafsa.png");
+  var pic13 = require("../../Images/Logo footer/مندوبية توزر.png");
+  var pic14 = require("../../Images/Logo footer/مندوبية قبلي.png");
   return (
     <div className="footer-container">
       <section className="social-media">
@@ -129,6 +134,46 @@ const Footer = () => {
                 arrow
               >
                 <img src={pic9} alt="" />
+              </Tooltip>
+              <Tooltip
+                TransitionComponent={Fade}
+                TransitionProps={{ timeout: 600 }}
+                title="Hôpital Régional de Gafsa"
+                arrow
+              >
+              <img src={pic10} alt="" />
+              </Tooltip>
+              <Tooltip
+                TransitionComponent={Fade}
+                TransitionProps={{ timeout: 600 }}
+                title="دار المعارف"
+                arrow
+              >
+              <img src={pic11} alt="" />
+              </Tooltip>
+              <Tooltip
+                TransitionComponent={Fade}
+                TransitionProps={{ timeout: 600 }}
+                title="Groupement santé de base Gafsa"
+                arrow
+              >
+              <img src={pic12} alt="" />
+              </Tooltip>
+              <Tooltip
+                TransitionComponent={Fade}
+                TransitionProps={{ timeout: 600 }}
+                title="مندوبية توزر"
+                arrow
+              >
+              <img src={pic13} alt="" />
+              </Tooltip>
+              <Tooltip
+                TransitionComponent={Fade}
+                TransitionProps={{ timeout: 600 }}
+                title="مندوبية قبلي"
+                arrow
+              >
+              <img src={pic14} alt="" />
               </Tooltip>
             </div>
           </div>

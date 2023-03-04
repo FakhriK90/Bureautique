@@ -14,24 +14,12 @@ export default function Category() {
               <ul>
                 <li>
                   <Link to="">Stylos</Link>
-                  <ul>
-                <li>
-                  <Link to="">Bic</Link>
-                </li>
-                <li>
-                  <Link to="">Staddler</Link>
-                </li>
-              
-                <li>
-                  <Link to="">Other</Link>
-                </li>
-              </ul>
                 </li>
                 <li>
                   <Link to="">Papiers</Link>
                 </li>
                 <li>
-                  <Link to="">Other</Link>
+                  <Link to="">Colles</Link>
                 </li>
               </ul>
             </li>
@@ -53,7 +41,7 @@ export default function Category() {
               <Link to="">Bureautiques</Link>
               <ul>
                 <li>
-                  <Link to="">Fauteils</Link>
+                  <Link to="">Fauteuils</Link>
                 </li>
                 <li>
                   <Link to="">jQuery</Link>
