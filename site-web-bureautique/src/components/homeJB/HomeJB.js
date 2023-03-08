@@ -8,35 +8,35 @@ const HomeJB = () => {
       <div className="contenu_carou_auto">
         <div className="caroussel-image">
           <img
-            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+            src={require("../../Images/Produits/équipements informatiques/Ordinateurs de bureau/PC DE BUREAU DELL.jpg")}
             alt=""
           />
           <img
-            src="https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg"
+            src={require("../../Images/Produits/équipements bureautiques/Tables/Table DIGITAL.jpg")}
             alt=""
           />
           <img
-            src="https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg"
+            src={require("../../Images/Produits/Fournitures/Colles/colle-gm-38g-panda-.png")}
             alt=""
           />
           <img
-            src="https://blog.chinevoyages.com/wp-content/uploads/2011/06/ca-sent-les-vacances-gratuites.jpg"
+            src={require("../../Images/Produits/équipements bureautiques/Armoires/Armoire Melamine 2 Portes.jpg")}
             alt=""
           />
           <img
-            src="https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-1048185397.jpg"
+            src={require("../../Images/Produits/équipements informatiques/Rétroprojecteurs/VIDÉOPROJECTEUR EPSON EB-X20.jpg")}
             alt=""
           />
           <img
-            src="https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753"
+            src={require('../../Images/Produits/Fournitures/Stylos/Stadler/staedtler-elance-421-25-stylo-a-bille.jpg')}
             alt=""
           />
           <img
-            src="https://www.tunisianet.com.tn/35969-large/rame-papier-navigator-a4-80gm-extra-blanc.jpg"
+            src={require('../../Images/Produits/équipements bureautiques/Papiers Ram/Rame Papier DISCOVERY A4_70Gr_500 Feuilles.jpg')}
             alt=""
           />
           <img
-            src="https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&w=1000&q=80"
+            src={require('../../Images/Produits/équipements informatiques/Ecrans/Fujitsu.jpg')}
             alt=""
           />
         </div>
