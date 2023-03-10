@@ -10,56 +10,56 @@ export default function Category() {
           <h3 id="title">Nos produits</h3>
           <ul>
             <li>
-              <Link to="">Fournitures</Link>
+              <Link to="/fournitures">Fournitures</Link>
               <ul>
                 <li>
-                  <Link to="">Stylos</Link>
+                  <Link to="/stylos">Stylos</Link>
                 </li>
                 <li>
-                  <Link to="">Classeurs</Link>
+                  <Link to="/classeurs">Classeurs</Link>
                 </li>
                 <li>
-                  <Link to="">Colles</Link>
+                  <Link to="/colles">Colles</Link>
                 </li>
                 <li>
-                  <Link to="">Marqeurs</Link>
+                  <Link to="/marqueurs">Marqeurs</Link>
                 </li>
                 <li>
-                  <Link to="">Rubans adhésifs</Link>
+                  <Link to="/adhesifs">Rubans adhésifs</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="">Informatiques</Link>
+              <Link to="/informatiques">Informatiques</Link>
               <ul>
                 <li>
-                  <Link to="">Pc bureautiques</Link>
+                  <Link to="/pc_bureau">Pc bureautiques</Link>
                 </li>
                 <li>
-                  <Link to="">Ecrans</Link>
+                  <Link to="/ecrans">Ecrans</Link>
                 </li>
                 <li>
-                  <Link to="">Rétroprojecteurs</Link>
+                  <Link to="/retroprojecteurs">Rétroprojecteurs</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="">Bureautiques</Link>
+              <Link to="/bureautiques">Bureautiques</Link>
               <ul>
                 <li>
-                  <Link to="">Fauteuils</Link>
+                  <Link to="/fauteuils">Fauteuils</Link>
                 </li>
                 <li>
-                  <Link to="">Armoires</Link>
+                  <Link to="/armoires">Armoires</Link>
                 </li>
                 <li>
-                  <Link to="">Chaises</Link>
+                  <Link to="/chaises">Chaises</Link>
                 </li>
                 <li>
-                  <Link to="">Tables</Link>
+                  <Link to="/tables">Tables</Link>
                 </li>
                 <li>
-                  <Link to="">Papiers Ram</Link>
+                  <Link to="/ram">Papiers Ram</Link>
                 </li>
               </ul>
             </li>
