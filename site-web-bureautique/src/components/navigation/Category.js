@@ -50,10 +50,16 @@ export default function Category() {
                   <Link to="">Fauteuils</Link>
                 </li>
                 <li>
-                  <Link to="">jQuery</Link>
+                  <Link to="">Armoires</Link>
                 </li>
                 <li>
-                  <Link to="">Other</Link>
+                  <Link to="">Chaises</Link>
+                </li>
+                <li>
+                  <Link to="">Tables</Link>
+                </li>
+                <li>
+                  <Link to="">Papiers Ram</Link>
                 </li>
               </ul>
             </li>
