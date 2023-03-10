@@ -65,7 +65,7 @@ h3{
 	
 /* Fisrt Tier Dropdown */
 #contain ul ul li {
-	width:240%;
+	width:197px;
 	float:none;
 	display:list-item;
 	position: relative;
@@ -75,7 +75,7 @@ h3{
 #contain ul ul ul li {
 	position: relative;
 	top:-40px; 
-	right:140px;
+	right:180px;
 }
 
 	

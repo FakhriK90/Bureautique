@@ -16,10 +16,16 @@ export default function Category() {
                   <Link to="">Stylos</Link>
                 </li>
                 <li>
-                  <Link to="">Papiers</Link>
+                  <Link to="">Classeurs</Link>
                 </li>
                 <li>
                   <Link to="">Colles</Link>
+                </li>
+                <li>
+                  <Link to="">Marqeurs</Link>
+                </li>
+                <li>
+                  <Link to="">Rubans adhésifs</Link>
                 </li>
               </ul>
             </li>
@@ -27,13 +33,13 @@ export default function Category() {
               <Link to="">Informatiques</Link>
               <ul>
                 <li>
-                  <Link to="">HTML/CSS</Link>
+                  <Link to="">Pc bureautiques</Link>
                 </li>
                 <li>
-                  <Link to="">jQuery</Link>
+                  <Link to="">Ecrans</Link>
                 </li>
                 <li>
-                  <Link to="">Other</Link>
+                  <Link to="">Rétroprojecteurs</Link>
                 </li>
               </ul>
             </li>
