@@ -2,7 +2,7 @@ import React from "react";
 import "./homeJB.css";
 
 const HomeJB = () => {
-  var logo = require("../../Images/Logo/Entreprise jadla boujemaa.png")
+  var logo = require("../../Images/Logo/Entreprise jadla boujemaa.png");
   return (
     <div>
       <div className="contenu_carou_auto">
@@ -28,15 +28,15 @@ const HomeJB = () => {
             alt=""
           />
           <img
-            src={require('../../Images/Produits/Fournitures/Stylos/Stadler/staedtler-elance-421-25-stylo-a-bille.jpg')}
+            src={require("../../Images/Produits/Fournitures/Stylos/Stadler/staedtler-elance-421-25-stylo-a-bille.jpg")}
             alt=""
           />
           <img
-            src={require('../../Images/Produits/équipements bureautiques/Papiers Ram/Rame Papier DISCOVERY A4_70Gr_500 Feuilles.jpg')}
+            src={require("../../Images/Produits/équipements bureautiques/Papiers Ram/Rame Papier DISCOVERY A4_70Gr_500 Feuilles.jpg")}
             alt=""
           />
           <img
-            src={require('../../Images/Produits/équipements informatiques/Ecrans/Fujitsu.jpg')}
+            src={require("../../Images/Produits/équipements informatiques/Ecrans/Fujitsu.jpg")}
             alt=""
           />
         </div>
@@ -56,11 +56,7 @@ const HomeJB = () => {
                 bureaux ...
               </p>
               <div className="main__image">
-                <img
-                  src={logo}
-                  alt="logo"
-                  className="main__img"
-                />
+                <img src={logo} alt="logo" className="main__img" />
               </div>
             </div>
           </div>

@@ -6,20 +6,20 @@ import Fade from "@mui/material/Fade";
 
 const Footer = () => {
   const year = new Date().getFullYear();
-  var pic1 = require("../../Images/Logo footer/ENIGA.png");
-  var pic2 = require("../../Images/Logo footer/fsgf.png");
-  var pic3 = require("../../Images/Logo footer/IPEIG.png");
-  var pic4 = require("../../Images/Logo footer/ISAE.png");
-  var pic5 = require("../../Images/Logo footer/ISAM-G.png");
-  var pic6 = require("../../Images/Logo footer/ISEAH.png");
-  var pic7 = require("../../Images/Logo footer/Iset.png");
-  var pic8 = require("../../Images/Logo footer/ISSAT.png");
-  var pic9 = require("../../Images/Logo footer/ISSEP.png");
-  var pic10 = require("../../Images/Logo footer/Hôpital régional de Gafsa.jpg");
-  var pic11 = require("../../Images/Logo footer/دار المعارف.png");
-  var pic12 = require("../../Images/Logo footer/Groupement santé de base Gafsa.png");
-  var pic13 = require("../../Images/Logo footer/مندوبية توزر.png");
-  var pic14 = require("../../Images/Logo footer/مندوبية قبلي.png");
+  var pic1 = require("../../Images/Logo_footer/ENIGA.png");
+  var pic2 = require("../../Images/Logo_footer/fsgf.png");
+  var pic3 = require("../../Images/Logo_footer/IPEIG.png");
+  var pic4 = require("../../Images/Logo_footer/ISAE.png");
+  var pic5 = require("../../Images/Logo_footer/ISAM-G.png");
+  var pic6 = require("../../Images/Logo_footer/ISEAH.png");
+  var pic7 = require("../../Images/Logo_footer/Iset.png");
+  var pic8 = require("../../Images/Logo_footer/ISSAT.png");
+  var pic9 = require("../../Images/Logo_footer/ISSEP.png");
+  var pic10 = require("../../Images/Logo_footer/Hôpital_régional_de_Gafsa.jpg");
+  var pic11 = require("../../Images/Logo_footer/دار_المعارف.png");
+  var pic12 = require("../../Images/Logo_footer/Groupement_santé_de_base_Gafsa.png");
+  var pic13 = require("../../Images/Logo_footer/مندوبية_توزر.png");
+  var pic14 = require("../../Images/Logo_footer/مندوبية_قبلي.png");
   return (
     <div className="footer-container">
       <section className="social-media">
