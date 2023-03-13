@@ -254,11 +254,11 @@ a {
   transform: translateY(-60px);
 }
 .example-2 .bureautique {
-  background: url("../../Images/Produits/équipements bureautiques/Tables/TABLE\ DE\ REUNION\ PRESTIGE.jpg")
+  background: url("../../Images/Produits/equipements_bureautiques/Tables/TABLE_DE_REUNION_PRESTIGE.jpg")
     center / cover no-repeat;
 }
 .example-2 .informatique {
-  background: url("../../Images/Produits/équipements informatiques/Ordinateurs de bureau/PC\ DE\ BUREAU\ DELL.jpg")
+  background: url("../../Images/Produits/equipements_informatiques/Ordinateurs_de_bureau/PC_DE_BUREAU_DELL.jpg")
     center / cover no-repeat;
 }.example-2 .scolaire {
   background: url("../../Images/Produits/Fournitures/Stylos/Stadler/ST34SB44_staedtler_34_triplus_mobile_office_set.jpg")

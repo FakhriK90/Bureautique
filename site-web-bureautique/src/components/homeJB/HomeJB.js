@@ -8,11 +8,11 @@ const HomeJB = () => {
       <div className="contenu_carou_auto">
         <div className="caroussel-image">
           <img
-            src={require("../../Images/Produits/équipements informatiques/Ordinateurs de bureau/PC DE BUREAU DELL.jpg")}
+            src={require("../../Images/Produits/equipements_informatiques/Ordinateurs_de_bureau/PC_DE_BUREAU_DELL.jpg")}
             alt=""
           />
           <img
-            src={require("../../Images/Produits/équipements bureautiques/Tables/Table DIGITAL.jpg")}
+            src={require("../../Images/Produits/equipements_bureautiques/Tables/Table_DIGITAL.jpg")}
             alt=""
           />
           <img
@@ -20,11 +20,11 @@ const HomeJB = () => {
             alt=""
           />
           <img
-            src={require("../../Images/Produits/équipements bureautiques/Armoires/Armoire Melamine 2 Portes.jpg")}
+            src={require("../../Images/Produits/equipements_bureautiques/Armoires/Armoire_ Melamine_2_Portes.jpg")}
             alt=""
           />
           <img
-            src={require("../../Images/Produits/équipements informatiques/Rétroprojecteurs/VIDÉOPROJECTEUR EPSON EB-X20.jpg")}
+            src={require("../../Images/Produits/equipements_informatiques/Rétroprojecteurs/VIDÉOPROJECTEUR_EPSON_EB-X20.jpg")}
             alt=""
           />
           <img
@@ -32,11 +32,11 @@ const HomeJB = () => {
             alt=""
           />
           <img
-            src={require("../../Images/Produits/équipements bureautiques/Papiers Ram/Rame Papier DISCOVERY A4_70Gr_500 Feuilles.jpg")}
+            src={require("../../Images/Produits/equipements_bureautiques/Papiers_Ram/Rame_Papier_DISCOVERY_A4_70Gr_500_Feuilles.jpg")}
             alt=""
           />
           <img
-            src={require("../../Images/Produits/équipements informatiques/Ecrans/Fujitsu.jpg")}
+            src={require("../../Images/Produits/equipements_informatiques/Ecrans/Fujitsu.jpg")}
             alt=""
           />
         </div>
