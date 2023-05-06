@@ -8,9 +8,9 @@ const {registerCheck, validator} = require('../middlewares/userValidator');
 
 //Signup
 router.post('/signup', registerCheck(), validator, async(req,res)=>{
-    const {email,fullName,password} = req.body;
+    const {email,phoneNumber,password} = req.body;
     try {
-        const userFound = await User.findOne({email,fullName})
+        const userFound = await User.findOne({email,phoneNumber})
         if (userFound) {
             return res.status(400).send({msg:'User already exists'})
         }
@@ -23,5 +23,33 @@ router.post('/signup', registerCheck(), validator, async(req,res)=>{
         res.status(400).send({msg:'No user added'})
     }
 });
+
+//Signin
+router.post ('/signin', async (req, res) => {
+    const {email,password} = req.body
+    try {
+        const  existUser = await User.findOne({email});
+        if (!existUser) {
+            return res.status(400).send({msg :' bad credential'})
+        }
+        const matched = await bcrypt.compare(password, existUser.password)
+        if (!matched) {
+            return res.status(400).send({msg :' bad credential'})
+        }
+        const payload = {
+            _id: existUser._id
+        }
+        const token = await jwt.sign(payload, process.env.secretKey);
+        const signin = await User.findOne({email}).select('-password');
+        res.send({user: signin, token: `Bearer ${token}`, msg :'successfully logged'});
+    } catch (error) {
+        res.status(400).send({msg: 'not connected'})
+    }
+})
+
+// Curent user
+router.get('/currentUser', isAuth(), (req,res) =>{
+    res.send({user: req.user})
+})
 
 module.exports = router;
