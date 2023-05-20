@@ -5,6 +5,11 @@ import HomeJB from "./components/homeJB/HomeJB";
 import Navigation from "./components/navigation/Navigation";
 import SignIn from "./components/signIn/SignIn";
 import SignUp from "./components/signUp/SignUp";
+// import axios from 'axios';
+
+// axios.defaults.baseURL = 'http://localhost:8000/';
+// axios.defaults.headers.common['Authorization'] = 'AUTH TOKEN';
+// axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 function App() {
   return (

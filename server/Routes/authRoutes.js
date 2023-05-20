@@ -8,9 +8,15 @@ const {registerCheck, validator} = require('../middlewares/userValidator');
 
 //Signup
 router.post('/signup', registerCheck(), validator, async(req,res)=>{
-    const {email,phoneNumber,password} = req.body;
+    const {name, email, password, confirm_password} = req.body;
+    // console.log(password)
+    
+    
     try {
-        const userFound = await User.findOne({email,phoneNumber})
+       console.log(password)
+        const userFound = await User.findOne({email})
+        console.log(userFound)
+        
         if (userFound) {
             return res.status(400).send({msg:'User already exists'})
         }
@@ -18,6 +24,7 @@ router.post('/signup', registerCheck(), validator, async(req,res)=>{
         const hashedPassword= await bcrypt.hash(password, 10)
         newUser.password = hashedPassword;
         await newUser.save();
+        console.log(newUser)
         res.send({msg:'User added successfully', user: newUser});
     } catch (error) {
         res.status(400).send({msg:'No user added'})
@@ -27,6 +34,7 @@ router.post('/signup', registerCheck(), validator, async(req,res)=>{
 //Signin
 router.post ('/signin', async (req, res) => {
     const {email,password} = req.body
+    console.log(req.body)
     try {
         const  existUser = await User.findOne({email});
         if (!existUser) {

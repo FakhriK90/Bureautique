@@ -28,11 +28,11 @@ const Footer = () => {
             <Link to="/" className="social-logo">
               Acceuil
             </Link>
-            <div class="vl"></div>
+            <div className="vl"></div>
             <Link to="/" className="social-logo">
               Présentation
             </Link>
-            <div class="vl"></div>
+            <div className="vl"></div>
             <Link to="/" className="social-logo">
               Contactez-nous
             </Link>

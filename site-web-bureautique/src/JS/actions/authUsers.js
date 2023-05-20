@@ -14,12 +14,21 @@ import axios from 'axios';
 //Signup
 export const registerUser = (newUser) => async (dispatch) => {
     dispatch({type: LOADING_AUTH});
+    
     try {
+      console.log('this is a newUser:', newUser);
+
+      console.log('this is the response:', axios.post('/user/signup', newUser));
+
       const response = await axios.post('/user/signup', newUser)
-      dispatch({type:SIGNUP_SUCCESS, payload: response.data})
-      console.log(response.data)
+      
+      dispatch({type:SIGNUP_SUCCESS, payload: response.data});
+
+      console.log('this is a response',response.data);
+
     } catch (error) {
-      console.dir(error)
+      console.log('OOps! error:',error);
+
       dispatch({type:SIGNUP_FAIL, payload:error})
     }
   };
@@ -27,14 +36,17 @@ export const registerUser = (newUser) => async (dispatch) => {
   
   //Signin
   export const loginUser = (detailUser) => async(dispatch) => {
-    dispatch({type:LOADING_AUTH})
-    console.log(detailUser)
+    dispatch({type:LOADING_AUTH});
+
+    console.log('details =',detailUser);
+
     try {
-      const response = await axios.post('/user/signin',detailUser)
+      const response = await axios.post('/user/signin',detailUser);
+      console.log('this is the response :',response);
       dispatch({type:LOGGIN_SUCCESS, payload: response.data});
       console.log(response.data)
     } catch (error) {
-      console.dir(error)
+      console.log('we have error : ',error)
       dispatch({type:LOGGIN_FAIL, payload:error})
     }
   };

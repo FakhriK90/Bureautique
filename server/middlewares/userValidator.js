@@ -4,7 +4,7 @@ exports.registerCheck=()=>[
     check("lastName","lastName is required").notEmpty(),
     check("firstName","firstName is required").notEmpty(),
     check("email",'this field must be a valid email').isEmail(),
-    check("password","password should have 6 chars").isLength({min:6})
+    check("password","password exist").notEmpty()
 ]
 
 exports.validator=(req,res,next)=>{

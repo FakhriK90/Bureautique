@@ -121,7 +121,6 @@ export default function SignUp() {
               required
               fullWidth
               name="password"
-              label="Password"
               type="password"
               id="password"
               autoComplete="current-password"
