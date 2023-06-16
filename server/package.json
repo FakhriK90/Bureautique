@@ -19,7 +19,7 @@
     "mdb-react-ui-kit": "^5.1.0",
     "mongodb": "^5.2.0",
     "mongoose": "^6.8.4",
-    "passport": "^0.3.2",
+    "passport": "^0.6.0",
     "passport-jwt": "^4.0.1"
   },
   "devDependencies": {
