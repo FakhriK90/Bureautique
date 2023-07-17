@@ -18,7 +18,7 @@
     "jsonwebtoken": "^9.0.0",
     "mdb-react-ui-kit": "^5.1.0",
     "mongodb": "^5.2.0",
-    "mongoose": "^6.8.4",
+    "mongoose": "^6.11.3",
     "passport": "^0.3.2",
     "passport-jwt": "^4.0.1"
   },
